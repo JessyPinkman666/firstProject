@@ -151,6 +151,10 @@ html {
   height: auto;
 }
 
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
 .nav__list {
   display: flex;
   white-space: nowrap;
